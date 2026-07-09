@@ -21,7 +21,7 @@ jobs:
       - name: run python program
         run: python app.py
       - name: Show generated file
-        run: cat result.txt
+        run: cat results.txt
       - name: Upload the result
         uses: actions/upload-artifact@v4
         with:
