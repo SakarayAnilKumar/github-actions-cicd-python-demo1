@@ -26,4 +26,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: python-result-file
-          path: result.txt
+          path: results.txt
