@@ -2,7 +2,7 @@ from datetime import datetime
 
 print("Python artifact demo")
 
-with open("results.txt","W") as file:
+with open("results.txt","w") as file:
   file.write("Hello from github\n")
   file.write("This file is created in git\n")
   file.write(f"Generated time is {datetime.now()}\n")
