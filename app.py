@@ -7,4 +7,4 @@ with open("results.txt","W") as file:
   file.write("This file is created in git\n")
   file.write(f"Generated time is {datetime.now()}\n")
   
-print("results.txt file is created successfully)
+print("results.txt file is created successfully")
